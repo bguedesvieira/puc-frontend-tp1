@@ -1,0 +1,25 @@
+{
+  "name": "tp1_bernardo_guedes_vieira",
+  "version": "1.0.0",
+  "description": "Trabalho prático 1 da disciplina Arquitetura de Front-end da especialização em Arquitetura de Software distribuído - IEC/PUCMG",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "Bernardo Guedes Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bguedesvieira/puc-frontend-tp1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bguedesvieira/puc-frontend-tp1/issues"
+  },
+  "homepage": "https://github.com/bguedesvieira/puc-frontend-tp1#readme"
+}
