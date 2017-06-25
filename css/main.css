@@ -1,8 +1,194 @@
+.btn-round-lg{
+border-radius: 22.5px;
+}
+.btn-round{
+border-radius: 17px;
+}
+.btn-round-sm{
+border-radius: 15px;
+}
+.btn-round-xs{
+border-radius: 11px;
+padding-left: 10px;
+padding-right: 10px;
+}
 
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* CADASTRO DE NOTICIAS CSS*/
+/* Carousel base class */
+.carousel-destaque {
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-destaque .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Timeline 
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.titulo-post h2{
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: #4B6170;
+    letter-spacing: -1px;
+}
+
+aside.post-meta{
+      margin: 0 0 2.618em 0;
+    font-size: .95em;
+    color: #828282;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-module-redes-sociais .social-icons .fa {
+   
+    font-size: 1.8em;
+    width: 50px;
+	  height: 50px;
+	  line-height: 50px;
+	  text-align: center;
+	  color: #FFF;
+	  color: rgba(255, 255, 255, 0.8);
+	  -webkit-transition: all 0.3s ease-in-out;
+	  -moz-transition: all 0.3s ease-in-out;
+	  -ms-transition: all 0.3s ease-in-out;
+	  -o-transition: all 0.3s ease-in-out;
+	  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-module-redes-sociais .social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+
+
+.sidebar-module-redes-sociais .social-icons .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github{
+  background-color: #070709;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-rss{
+      background: #ff6600;
+    color: white;
+}
+
+/* Paginação */
+.pager-blog {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager-blog > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+
+
+
+/* CADASTRO DE POST CSS*/
 #form-container {
   width: 500px;
 }
@@ -42,7 +228,7 @@
 #editor-container {
   height: 130px;
 }
-/* FIM CADASTRO DE NOTÍCIAS*/
+/* FIM CADASTRO DE POST*/
 
 
 
