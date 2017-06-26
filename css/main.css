@@ -13,6 +13,10 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
+.btn-ver-mais-lg{
+  border-radius: 22.5px;
+}
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -69,6 +73,13 @@ body {
   width: auto;
 }
 
+#login-form .form-control.form-control-user{
+  width: 150px;
+}
+
+#login-form .form-control.form-control-password{
+  width: 150px;
+}
 
 /*
  * Blog name and description
@@ -111,6 +122,17 @@ aside.post-meta{
     font-size: .95em;
     color: #828282;
 }
+
+.btn-continue-lendo{
+    background-color: #fff !important;
+    border: 1px solid #ddd;
+}
+.btn-continue-lendo:focus{
+  text-decoration: none !important;
+  background-color: #eee !important;
+}
+
+.btn-continue-lendo:hover { background-color: #eee !important; }
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
@@ -185,6 +207,29 @@ aside.post-meta{
 }
 
 
+footer.blog-footer{
+  background: #efeeea;
+      margin: 0 -2.244em;
+    padding: 2.618em;
+}
+
+footer.blog-footer p{
+    padding-left: 84px;
+}
+
+/* visualização de post*/
+#article > div:nth-child(1) > article > header{
+  margin-top:36px;
+  height: 266px;
+}
+
+#article > div > article > div > div > section > p{
+    padding-bottom: 25px;
+}
+
+.post-sidebar{
+  margin-top:36px;
+}
 
 
 
@@ -199,9 +244,6 @@ aside.post-meta{
 .row.form-group {
   padding-left: 15px;
   padding-right: 15px;
-}
-.btn {
-  margin-left: 15px;
 }
 
 .change-link {

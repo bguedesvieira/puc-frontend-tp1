@@ -49,8 +49,7 @@
                     <li><a href="#">Categoria 3</a></li>                    
                   </ul>
                 </li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="templates/novo-post.html">Novo Post</a></li>
               </ul>
             </div>
           </div>
@@ -58,17 +57,6 @@
 
       </div>
     </div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!--
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-    -->
 
     <div id="carouselDestaques" class="carousel carousel-destaque slide">
       <ol class="carousel-indicators">
@@ -81,9 +69,9 @@
           <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
+              <h1>Destaque 1.</h1>
               <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-round-lg btn-lg btn-primary" href="#" role="button">Ver mais</a></p>
+              <p><a class="btn btn-lg btn-primary btn-ver-mais-lg" href="#" role="button">Ver mais</a></p>
             </div>
           </div>
         </div>
@@ -91,9 +79,9 @@
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container"> 
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1>Destaque 2.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver mais</a></p>
+              <p><a class="btn btn-lg btn-primary btn-ver-mais-lg" href="#" role="button">Ver mais</a></p>
             </div>
           </div>
         </div>
@@ -101,9 +89,9 @@
           <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
+              <h1>Destaque 3.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver mais</a></p>
+              <p><a class="btn btn-lg btn-primary btn-ver-mais-lg" href="#" role="button">Ver mais</a></p>
             </div>
           </div>
         </div>
@@ -127,7 +115,7 @@
       <div class="row">
         <div id="articles" class="col-sm-8 blog-main">
           
-          <div class="blog-post">
+          <div id="postagem1" class="blog-post">
             <article>            
               <header class="titulo-post">
                 <h2>Título da postagem 1</h2> 
@@ -136,14 +124,78 @@
                 <span class="post-data">Postado em 24/06/2017</span>
                 <span class="post-author">por João </span>                
               </aside>
-                
+
+              <div class="row">
+                <div class="col-sm-3">
+              <img src="http://lorempixel.com/500/500/people/5/" class="img-responsive img-circle img-header">
+                </div>
+                <div class="col-sm-9">
+                  <section>
+                    <p>Mixtape iPhone direct trade swag. Lomo occupy wayfarers cornhole edison bulb green juice. Leggings non 8-bit laborum tousled hot chicken shabby chic cliche. Af echo park +1 flexitarian. Hell of sustainable iPhone listicle,[...]</p>
+                  </section>
+                </div>
               <footer>
-                <p>&copy; Company 2015</p>
+                <a href="templates/postagem1.html" class="btn btn-lg btn-round-lg btn-continue-lendo">Continue Lendo</a>
                 <hr>
               </footer>
+              </div>
             </article>
           </div>
-             
+
+          <div id="postagem2" class="blog-post">
+            <article>            
+              <header class="titulo-post">
+                <h2>Título da postagem 2</h2> 
+              </header>
+              <aside class="post-meta">
+                <span class="post-data">Postado em 10/06/2017</span>
+                <span class="post-author">por Carlos </span>                
+              </aside>
+
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="http://lorempixel.com/g/400/400/nightlife/1/" class="img-responsive img-circle img-header">
+                </div>
+                <div class="col-sm-9">
+                  <section>
+                    <p>Blue lagoon semper a nisl, "velit nulla gibson aviation; litora," ullamcorper pulteney ad gummy and coke black & white, longmorn irish mist. Clynelish netus, "lejon aliquam volutpat: adipiscing chi-chi jameson gin and tonic." Sollicitudin sapien,[...]<p>
+                  </section>
+                </div>
+              <footer>
+                <a href="templates/postagem2.html" class="btn btn-lg btn-round-lg btn-continue-lendo">Continue Lendo</a>
+                <hr>
+              </footer>
+              </div>
+            </article>
+          </div>
+
+          <div id="postagem3" class="blog-post">
+            <article>            
+              <header class="titulo-post">
+                <h2>Título da postagem 3</h2> 
+              </header>
+              <aside class="post-meta">
+                <span class="post-data">Postado em 30/05/2017</span>
+                <span class="post-author">por Jules Winnfield </span>                
+              </aside>
+
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="img/samuelLjackson.jpg" class="img-responsive img-circle img-header">
+                </div>
+                <div class="col-sm-9">
+                  <section>
+                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs,</p>
+                  </section>
+                </div>
+              <footer>
+                <a href="templates/postagem3.html" class="btn btn-lg btn-round-lg btn-continue-lendo">Continue Lendo</a>
+                <hr>
+              </footer>
+              </div>
+            </article>
+          </div>
+
           <!-- PAGINAÇÃO -->
           <nav>
             <ul class="pager pager-blog">
@@ -157,7 +209,7 @@
         <!-- INICIO SIDE BAR LADO DIREITO -->
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
+            <h4>Sobre o blog</h4>
             <p>Spicy jalapeno bacon ipsum dolor amet andouille landjaeger jerky, burgdoggen pork meatball short loin spare ribs cupim t-bone. Frankfurter doner tail, swine spare ribs hamburger pancetta. Leberkas ribeye cow sausage kielbasa. Frankfurter meatloaf pork, short ribs corned beef porchetta landjaeger pastrami spare ribs ball tip pork chop. Short ribs landjaeger sirloin boudin tri-tip meatloaf, ham corned beef kielbasa tenderloin shank pig. Ham hock capicola tenderloin, pancetta shank ribeye ground round boudin. T-bone picanha alcatra corned beef.</p>
           </div>
           <div class="sidebar-module sidebar-module-arquivos">
@@ -177,6 +229,22 @@
               <li><a href="#">Julho 2016</a></li>
             </ol>
           </div>
+
+          <div class="sidebar-module sidebar-module-login">
+            <h4>Login no site</h4>
+            <form id="login-form" >
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" type="text" placeholder="Email" class="form-control form-control-user">
+                </div>
+                <div class="form-group">
+                  <label for="password">Senha</label>
+                  <input id="password" type="password" placeholder="Password" class="form-control form-control-password">
+                </div>
+                <button type="submit" class="btn btn-default btn-round">Sign in</button>
+              </form>
+          </div>
+
           <div class="sidebar-module sidebar-module-redes-sociais">
             <h4>Redes Sociais</h4>
             <ul class="social-icons icon-circle list-unstyled list-inline">
@@ -189,6 +257,13 @@
         </div><!-- /.blog-sidebar -->
       </div> <!-- fim .row -->
     </div>
+
+    <footer id="footer" class="blog-footer">
+      <div class="footer-inner">
+        <p><a href="http://frontend.bernardovieira.com.br">frontend.bernardovieira.com.br</a> &copy;, 2017</p>
+
+      </div>         
+    </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
