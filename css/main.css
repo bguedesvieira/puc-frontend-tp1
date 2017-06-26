@@ -231,7 +231,9 @@ footer.blog-footer p{
   margin-top:36px;
 }
 
-
+.btn-voltar{
+  margin-bottom: 15px;
+}
 
 /* CADASTRO DE POST CSS*/
 #form-container {
@@ -269,6 +271,11 @@ footer.blog-footer p{
 
 #editor-container {
   height: 130px;
+}
+
+.btn-save-post{
+  margin: 15px;
+  width: 100px;
 }
 /* FIM CADASTRO DE POST*/
 
